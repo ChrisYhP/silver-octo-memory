@@ -10,7 +10,8 @@ a chrome-extention for hijacking backend data and transfer them to  typescript i
 3. add build folder to chrome extention
 
 ## 如何使用：
+
 1.git clone
-2. npm run build
-3. chrome插件添加build文件夹
+2.npm run build
+3.chrome插件添加build文件夹
 
