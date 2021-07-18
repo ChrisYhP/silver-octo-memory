@@ -1,0 +1,19 @@
+{
+  "name": "dataToInterface-plugin",
+  "version": "0.1",
+  "description": "A bare-bones example of communication between devtools and an inspected page",
+  "devtools_page": "devtools.html",
+  "background": {
+      "scripts": [
+          "background.js"
+      ]
+  },
+  "permissions": [
+      "tabs", 
+      "http://*/*",
+      "https://*/*"
+  ],
+  "manifest_version": 2,
+  "minimum_chrome_version": "46",
+  "content_security_policy": "script-src 'self' 'sha256-WOdSzz11/3cpqOdrm89LBL2UPwEU9EhbDtMy2OciEhs='"
+}

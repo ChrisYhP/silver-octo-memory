@@ -1,0 +1,64 @@
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+.bg {
+  height: 100%;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.9;
+    background-image: url(1120.jpg);
+}
+
+.urlname {
+  color: #3561cc;
+  font-size: 14px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.content {
+  padding: 2px 8px;
+  background: linear-gradient(to right, rgba(53, 97, 204, 0.1), rgba(53, 97, 204, 0.4));
+  background-color: #fff;
+  border-radius: 8px;
+  color:#545d75;
+  font-size: 10px;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.mybutton {
+  background-color: cadetblue;
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action {
+  padding: 10px 0;
+  display: flex;
+  border-bottom: 1px solid rgba(53, 97, 204, 0.1);
+  justify-content: flex-end;
+}
+
+.actbutton {
+  background-color: rgba(53, 97, 204, 0.6);
+  color: #fff;
+  border: none;
+  margin-left: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
